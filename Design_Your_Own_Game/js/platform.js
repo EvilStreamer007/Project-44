@@ -1,4 +1,4 @@
-class Platform {
+class Levels {
     constructor(x,y,width,height) {
       var options = {
           isStatic: true
@@ -11,20 +11,14 @@ class Platform {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("mint");
+      fill("crimson");
       rect(pos.x, pos.y, this.width, this.height);
     }
 
-	play(){
+/*	play(){
 		
-		//var obstacle;
-
-		 if (frameCount % 20 === 0) {
-			 obstacle = createSprite(random(100, 1000), 0,random(70,140));		
-			 obstacleGroup.add(obstacle);
-     	}
-
-		 //obstacleGroup.display();
-		
-     }
+			   obstacle = createSprite(random(100, 1000), 0,random(70,140));		
+			   obstacleGroup.add(obstacle);
+  
+     }*/
   };
